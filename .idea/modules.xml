@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/6ixTaxi_User.iml" filepath="$PROJECT_DIR$/6ixTaxi_User.iml" />
+      <module fileurl="file://$PROJECT_DIR$/6ixTaxi_User-add_stops_implementation.iml" filepath="$PROJECT_DIR$/6ixTaxi_User-add_stops_implementation.iml" group="6ixTaxi_User-add_stops_implementation" />
+      <module fileurl="file://$PROJECT_DIR$/app/6ixTaxi_User-add_stops_implementation-app.iml" filepath="$PROJECT_DIR$/app/6ixTaxi_User-add_stops_implementation-app.iml" group="6ixTaxi_User-add_stops_implementation/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/FairCab_User.iml" filepath="$PROJECT_DIR$/.idea/modules/FairCab_User.iml" group="FairCab_User" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/FairCab_User-app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/FairCab_User-app.iml" group="FairCab_User/app" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+    </modules>
+  </component>
+</project>
