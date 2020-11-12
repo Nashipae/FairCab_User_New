@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/window_background"
+    tools:context=".ui.activity.corporate.CorporateActivity">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/clanpro_narrnews"
+                android:text="@string/enter_the_details_you_used_to_register_corperate"
+                android:textColor="@color/colorPrimaryText"
+                android:textSize="@dimen/text_16" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="14dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/clanpro_narrnews"
+                    android:text="@string/email"
+                    android:textColor="@color/colorPrimaryText"
+                    android:textSize="@dimen/text_14" />
+
+                <EditText
+                    android:id="@+id/email"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_30sdp"
+                    android:padding="@dimen/_5sdp"
+                    android:textColorHint="@color/colorPrimaryTextHint"
+                    app:backgroundTint="@color/colorPrimaryTextHint"
+                    android:hint="@string/email_hint"
+                    android:inputType="textEmailAddress"
+                    android:textColor="@color/colorPrimaryText"
+                    android:textSize="@dimen/text_18" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="14dp"
+                android:baselineAligned="false"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/clanpro_narrnews"
+                        android:text="@string/name"
+                        android:textColor="@color/colorPrimaryText"
+                        android:textSize="@dimen/text_14" />
+
+                    <EditText
+                        android:id="@+id/first_name"
+                        android:layout_width="match_parent"
+                        android:textColor="@color/colorPrimaryText"
+                        android:textColorHint="@color/colorPrimaryTextHint"
+                        app:backgroundTint="@color/colorPrimaryTextHint"                        android:layout_height="@dimen/_30sdp"
+                        android:padding="@dimen/_5sdp"
+                        android:hint="@string/first_name"
+                        android:inputType="textPersonName"
+                        android:textSize="@dimen/text_18" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorPrimaryText"
+                        android:textSize="14sp" />
+
+                    <EditText
+                        android:id="@+id/last_name"
+                        android:layout_width="match_parent"
+                        android:textColor="@color/colorPrimaryText"
+                        android:textColorHint="@color/colorPrimaryTextHint"
+                        app:backgroundTint="@color/colorPrimaryTextHint"                        android:padding="@dimen/_5sdp"
+                        android:layout_height="@dimen/_30sdp"                        android:hint="@string/last_name"
+                        android:inputType="textPersonName"
+                        android:textSize="@dimen/text_18" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="14dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/clanpro_narrnews"
+                    android:text="@string/company_name"
+                    android:textColor="@color/colorPrimaryText"
+                    android:textSize="@dimen/text_14" />
+
+                <android.support.v7.widget.AppCompatSpinner
+                    android:id="@+id/company_name"
+                    android:layout_width="match_parent"
+                    android:textColor="@color/window_background"
+                    android:textColorHint="@color/window_background"
+                    android:layout_height="@dimen/_30sdp"
+                    android:background="@drawable/button_border"
+                    android:inputType="textCapCharacters"
+                    android:textSize="@dimen/text_18" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="14dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/clanpro_narrnews"
+                    android:text="@string/company_id"
+                    android:textColor="@color/colorPrimaryText"
+                    android:textSize="@dimen/text_14" />
+
+                <EditText
+                    android:id="@+id/company_id"
+                    android:layout_width="match_parent"
+                    android:textColor="@color/colorPrimaryTextHint"
+                    android:textColorHint="@color/colorPrimaryTextHint"
+                    app:backgroundTint="@color/colorPrimaryTextHint"                    android:padding="@dimen/_5sdp"
+                    android:layout_height="@dimen/_30sdp"
+                    android:inputType="text|number"
+                    android:textSize="@dimen/text_18"
+                    android:enabled="false"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="14dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/clanpro_narrnews"
+                    android:text="@string/employee_id"
+                    android:textColor="@color/colorPrimaryText"
+                    android:textSize="@dimen/text_14" />
+
+                <EditText
+                    android:id="@+id/employee_id"
+                    android:layout_width="match_parent"
+                    android:textColor="@color/colorPrimaryTextHint"
+                    android:textColorHint="@color/colorPrimaryTextHint"
+                    app:backgroundTint="@color/colorPrimaryTextHint"                    android:padding="@dimen/_5sdp"
+                    android:layout_height="@dimen/_30sdp"
+                    android:inputType="text"
+                    android:textSize="@dimen/text_18" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/mobileContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="14dp"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/clanpro_narrnews"
+                    android:text="@string/company_phone_number"
+                    android:textColor="@color/colorPrimaryText"
+                    android:textSize="@dimen/text_14" />
+
+                <EditText
+                    android:id="@+id/phone_number"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="phone"
+                    android:textColor="@color/colorPrimaryText"
+                    android:textSize="@dimen/text_18" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/passwordContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="14dp"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/clanpro_narrnews"
+                    android:text="@string/company_password"
+                    android:textColor="@color/colorPrimaryText"
+                    android:textSize="@dimen/text_14" />
+
+                <EditText
+                    android:id="@+id/password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/password_hint"
+                    android:inputType="textPassword"
+                    android:textColor="@color/colorPrimaryText"
+                    android:textSize="@dimen/text_18" />
+
+            </LinearLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="100dp" />
+
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        android:layout_margin="16dp"
+        android:src="@drawable/ic_right"
+        android:visibility="gone"/>
+
+</android.support.design.widget.CoordinatorLayout>

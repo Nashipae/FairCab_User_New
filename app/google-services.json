@@ -1,0 +1,147 @@
+{
+  "project_info": {
+    "project_number": "319368476349",
+    "firebase_url": "https://ixtaxi.firebaseio.com",
+    "project_id": "ixtaxi",
+    "storage_bucket": "ixtaxi.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:319368476349:android:9981e3208ab721639269d4",
+        "android_client_info": {
+          "package_name": "com.sixix.partner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "319368476349-k3h8q57udu1iedk0u8i81l4cvanl39im.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sixix.partner",
+            "certificate_hash": "f790386eada6f43c8210cc2218ec017ab31c6dc1"
+          }
+        },
+        {
+          "client_id": "319368476349-vhshtq87vot8kb6mqng9pfone6o5ui02.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sixix.partner",
+            "certificate_hash": "5f077d830f164f6927416097f052c5e16baa26bb"
+          }
+        },
+        {
+          "client_id": "319368476349-mvv9sep8gb8ev2mb248l73jailnat6du.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sixix.partner",
+            "certificate_hash": "7b25599fa9cdd236dfee7d4a9417f56b2f43673c"
+          }
+        },
+        {
+          "client_id": "319368476349-ee9q9e8dl4tu9uac2avagcjnerta3jp4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sixix.partner",
+            "certificate_hash": "ea3173a68f827f6ec5f1f59a5f6c2bf6701fff67"
+          }
+        },
+        {
+          "client_id": "319368476349-ded4fprmgs8co0i54viacddcc2is6o78.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDk13M3Mu9dAapi3IjgPcsbc6ZhD1yt84"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "319368476349-ded4fprmgs8co0i54viacddcc2is6o78.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "319368476349-id5o5mllc9bkgpjntl71ohkgkbqmrb5e.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.6ixtaxi.driver"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:319368476349:android:8390004190a9f7619269d4",
+        "android_client_info": {
+          "package_name": "com.faircab.user"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "319368476349-3vketuq4b53e2r90h0l5q5lmhfsgua68.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.faircab.user",
+            "certificate_hash": "5f077d830f164f6927416097f052c5e16baa26bb"
+          }
+        },
+        {
+          "client_id": "319368476349-78h7l85bimv3oa5gmgt9kh2gk929eca0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.faircab.user",
+            "certificate_hash": "caf63a4bae7cd8fdcd130aa6d09ed68317cba579"
+          }
+        },
+        {
+          "client_id": "319368476349-t6otnsvrddp5inkgibirvkl8frg6vmas.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.faircab.user",
+            "certificate_hash": "7b25599fa9cdd236dfee7d4a9417f56b2f43673c"
+          }
+        },
+        {
+          "client_id": "319368476349-e2qn85mhaiq8v5p0guphjjhbeetqcuts.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.faircab.user",
+            "certificate_hash": "8df477d2c84a4d0e9296e34844612d1bde200f5b"
+          }
+        },
+        {
+          "client_id": "319368476349-ded4fprmgs8co0i54viacddcc2is6o78.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDk13M3Mu9dAapi3IjgPcsbc6ZhD1yt84"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "319368476349-ded4fprmgs8co0i54viacddcc2is6o78.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "319368476349-id5o5mllc9bkgpjntl71ohkgkbqmrb5e.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.6ixtaxi.driver"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

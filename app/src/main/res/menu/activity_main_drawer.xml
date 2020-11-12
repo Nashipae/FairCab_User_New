@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_payment"
+            android:icon="@drawable/payment"
+            android:title="@string/payment" />
+        <item
+            android:id="@+id/nav_your_trips"
+            android:icon="@drawable/trips"
+            android:title="@string/your_trips" />
+        <item
+            android:id="@+id/nav_coupon"
+            android:icon="@drawable/offers"
+            android:title="@string/offer" />
+        <item
+            android:id="@+id/nav_corperate"
+            android:icon="@drawable/corporateuser"
+            android:title="@string/corperate"/>
+        <item
+            android:id="@+id/nav_wallet"
+            android:title="@string/wallet"
+            android:icon="@drawable/wallet"
+            android:visible="false"/>
+        <item
+            android:id="@+id/nav_passbook"
+            android:icon="@drawable/payment"
+            android:title="@string/passbook" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/settings"
+            android:title="@string/settings" />
+        <item
+            android:id="@+id/nav_help"
+            android:icon="@drawable/about"
+            android:title="@string/help" />
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/share"
+            android:title="@string/share" />
+        <item
+            android:id="@+id/nav_become_driver"
+            android:icon="@drawable/driver"
+            android:title="@string/become_driver" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/logout"
+            android:title="@string/logout" />
+    </group>
+</menu>
